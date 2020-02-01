@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img width="25%" src="./assets/logo.png">
-    <HelloWorld msg="Hello Vue in CodeSandbox!" />
+    <!-- <img width="25%" src="./assets/logo.png"> -->
+    <!-- <HelloWorld msg="Hello Vue in CodeSandbox!" /> -->
+    <CanvasGrid/>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld";
+import CanvasGrid from "./components/CanvasGrid";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    HelloWorld,
+    CanvasGrid
   }
 };
 </script>
